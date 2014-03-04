@@ -2,7 +2,6 @@ d="73167176531330624919225119674426574742355349194934969835203127745063262395783
 
 m=[]
 for i in range(0,len(d)-4):
-#    print int(d[i]),int(d[i+1]),int(d[i+2]),int(d[i+3]),int(d[i+4])
     s=int(d[i])*int(d[i+1])*int(d[i+2])*int(d[i+3])*int(d[i+4])
     m.append(s)
 
