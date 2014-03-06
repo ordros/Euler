@@ -5,4 +5,4 @@ for i in range(0,len(d)-4):
     s=int(d[i])*int(d[i+1])*int(d[i+2])*int(d[i+3])*int(d[i+4])
     m.append(s)
 
-print sorted(m)
+print sorted(m)[::-1][0]
